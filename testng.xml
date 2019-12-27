@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <classes>
+  <class name="pack1.TestNgPractice"/>
+  <methods>
+   <include name="m1"/>
+   <include name="m2"/>
+   <exclude name="m3"/>
+   </methods>
+  <class name="pack1.Program1"/>
+  
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
