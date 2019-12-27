@@ -11,7 +11,7 @@ public class MouseEventsAndSynchronization {
 
 	public static void main(String[] args) throws Exception {
 		
-        
+        //new
          //System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
          //ChromeDriver driver=new ChromeDriver();
 		FirefoxDriver driver=new FirefoxDriver();
